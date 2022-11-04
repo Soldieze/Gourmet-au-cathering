@@ -1,34 +1,127 @@
 @font-face {
+  font-family: "BrandFont";
+  src: url(../Fonts/PlayfairDisplay-VariableFont_wght.ttf);
+
+
+}
+
+*{
     font-family: "BrandFont";
-    src: url(../Fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
 
 nav {
-
-/* background: #a2761c;
+  /* background: #a2761c;
 background: linear-gradient(130deg,#a2761c 0%, #765432 80%);
 background: -webkit-linear-gradient(130deg,#a2761c 0%, #765432 80%);
 background: -moz-linear-gradient(130deg,#a2761c 0%, #765432 80%);
   color: black;
 Border-radius: 15px;  */
 
-font-size: 1.9em;
-font-family: "BrandFont";
-font-style: normal;
-text-decoration: underline;
-letter-spacing: 0.3rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.9em;
+  font-family: "BrandFont";
+  font-style: normal;
+  letter-spacing: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 0.5rem;
 }
 
-#blocktest{
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-    background-color: yellow;
+#brand {
+  padding-left: 0.5rem;
 }
 
-#blocktest2{
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-    background-color: blue;
+#board {
+  list-style-type: none;
+  display: flex;
+}
+
+#board li {
+  padding: 1rem;
+}
+
+#imgHeader {
+  display: flex;
+  align-items: flex-end;
+  font-style: normal;
+  font-size: 1.9em;
+  letter-spacing: 0.2em;
+  background-image: url(../img/pexels-elevate-1267320.jpg);
+  height: 65vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 10px;
+}
+
+h1 {
+  font-weight: 100;
+}
+
+#about{
+    width: 65%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.card{
+    width: 49%;
+    padding-top: 5vh;
+}
+
+#about h2{
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 0;
+    margin: 0;
+}
+#about h3{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#about p{
+    text-align: justify;
+    font-size: 1rem;
+}
+
+#our{
+    width: 65%;
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.menu{
+    width: 49%;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh;
+}
+
+#our h4{
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+#our h3{
+    font-size: 2rem;
+    text-align: center;
+}
+
+#our p{
+    margin-bottom: 3rem;
 }
