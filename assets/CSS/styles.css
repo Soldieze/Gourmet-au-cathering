@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "BrandFont";
+    src: url(../Fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+nav {
+
+/* background: #a2761c;
+background: linear-gradient(130deg,#a2761c 0%, #765432 80%);
+background: -webkit-linear-gradient(130deg,#a2761c 0%, #765432 80%);
+background: -moz-linear-gradient(130deg,#a2761c 0%, #765432 80%);
+  color: black;
+Border-radius: 15px;  */
+
+font-size: 1.9em;
+font-family: "BrandFont";
+font-style: normal;
+text-decoration: underline;
+letter-spacing: 0.3rem;
+}
+
+#blocktest{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+#blocktest2{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
