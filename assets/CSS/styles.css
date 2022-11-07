@@ -183,10 +183,12 @@ input{
   transition: 0.2s;
   border: none;
   margin-right: 0;
+  width: 17vh;
 }
 
 #send:hover{
   transition: 0.2s;
   background-color: black;
   color: white;
+  cursor: pointer;
 }
