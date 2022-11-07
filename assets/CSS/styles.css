@@ -126,3 +126,67 @@ h1 {
 #our p{
     margin-bottom: 3rem;
 }
+
+.trait{
+  display: flex;
+  border: 0.1vh black solid;
+  height: 0.1vh;
+  width: 100vh;
+  justify-content: center;
+}
+
+#contact h4{
+  font-size: 1.5rem;
+  color: grey;
+}
+
+#contact h3{
+  font-size: 4rem;
+  margin-left: 10rem;
+}
+
+#contact p{
+  margin-left: 10rem;
+}
+
+#adress{
+  margin: 1rem 1rem 1rem 10rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15rem;
+}
+
+input{
+  border: none;
+  border-bottom: 0.2vh grey solid;
+  width: 75%;
+  padding: 0.5rem;
+  margin: 0.7rem;
+}
+
+#input{
+  display: flex;
+  align-items: center;
+}
+
+#contact div{
+  margin-left: 0.5rem;
+}
+
+#send{
+  transition: 0.2s;
+  border: none;
+  margin-right: 0;
+}
+
+#send:hover{
+  transition: 0.2s;
+  background-color: black;
+  color: white;
+}
